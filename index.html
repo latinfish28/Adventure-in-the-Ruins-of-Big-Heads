@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Head Forest</title>
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+        <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <div class="container">
+        <canvas id="canvas"></canvas>
+        <div id="overlay">
+          <div>DISTANCE: <span id="move"></span></div>
+          <div>HI: <span id="highest"></span></div>
+          <button id="restart" type="button">RESTART</button>
+        </div>
+      </div>
+          <!--
+      for most samples webgl-utils only provides shader compiling/linking and
+      canvas resizing because why clutter the examples with code that's the same in every sample.
+      See https://webgl2fundamentals.org/webgl/lessons/webgl-boilerplate.html
+      and https://webgl2fundamentals.org/webgl/lessons/webgl-resizing-the-canvas.html
+      for webgl-utils, m3, m4, and webgl-lessons-ui.
+      -->
+      <script src="https://webgl2fundamentals.org/webgl/resources/webgl-utils.js"></script>
+      <script src="https://webgl2fundamentals.org/webgl/resources/webgl-lessons-ui.js"></script>
+      <script src="https://webgl2fundamentals.org/webgl/resources/headdata.js"></script>
+      <script src="main.js"></script>
+    </body>
+</html>

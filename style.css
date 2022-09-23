@@ -1,0 +1,32 @@
+@import url("https://webgl2fundamentals.org/webgl/resources/webgl-tutorials.css");
+@import url('http://fonts.cdnfonts.com/css/cave-story');
+body {
+  margin: 0;
+  font-family: 'Cave Story', sans-serif;
+}
+canvas {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
+
+.container {
+  position: relative;
+}
+
+#overlay {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+  font-size: 30px;
+  padding: 18px;
+  text-shadow: 0px 0px 5px black;
+}
+
+#restart {
+  position: absolute;
+  left: 45vw;
+  top: 90vh;
+}
